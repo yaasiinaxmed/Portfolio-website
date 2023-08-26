@@ -3,12 +3,30 @@ import Aos from "aos";
 
 import "./App.css";
 
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Hero from "./components/UI/Hero";
+import Services from "./components/UI/Services";
+import Portfolio from "./components/UI/Portfolio";
+import Contact from "./components/UI/Contact";
+
 function App() {
   useEffect(() => {
     Aos.init();
   }, []);
 
-  return <h1 className="text-indigo-600 text-2xl font-[500]">Hello world</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero/>
+        <Services/>
+        <Portfolio/>
+        <Contact/>
+      </main>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
