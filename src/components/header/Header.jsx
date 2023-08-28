@@ -64,10 +64,10 @@ function Header() {
                 {/*  ========= menu end ======= */}
                 {/*  ========= menu right start ======= */}
                 <div className="flex item-center gap-4">
-                    <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor
+                    <a href="#contact" className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor
                      py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-700 '>
                         <i class="ri-send-plane-line"></i> Let's Talk
-                    </button>
+                    </a>
                     <span onClick={toggleMenu} className='text-2xl text-smallTextColor md:hidden cursor-pointer'><i class="ri-menu-line"></i></span>
                 </div>
                 {/*  ========= menu right end ======= */}

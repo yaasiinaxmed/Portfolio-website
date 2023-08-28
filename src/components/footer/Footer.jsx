@@ -35,19 +35,19 @@ function Footer() {
               </span>
 
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
-                <a href="#" className="text-gray-300 font-[500] text-[18px] ">
+                <a href="https://github.com/yaasiinaxmed" className="text-gray-300 font-[500] text-[18px] ">
                   <i class="ri-github-line"></i>
                 </a>
               </span>
 
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
-                <a href="#" className="text-gray-300 font-[500] text-[18px] ">
-                  <i class="ri-facebook-line"></i>
+                <a href="https://www.instagram.com/yaasiinahmed16/" className="text-gray-300 font-[500] text-[18px] ">
+                  <i class="ri-instagram-line"></i>
                 </a>
               </span>
 
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                <a href="#" className="text-gray-300 font-[500] text-[18px] ">
+                <a href="https://twitter.com/yaasiin__ahmed" className="text-gray-300 font-[500] text-[18px] ">
                   <i class="ri-twitter-line"></i>
                 </a>
               </span>
@@ -99,7 +99,7 @@ function Footer() {
             </div>
 
            <div>
-            <p className="text-gray-400 text[14px] ">Copyright {year} developed by Yaasiin Ahmed - All right reserved.</p>
+            <p className="text-gray-400 text[14px] ">&copy;  {year} by Yaasiin Ahmed - All right reserved.</p>
            </div>
 
           </div>

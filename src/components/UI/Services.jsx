@@ -7,7 +7,7 @@ import appsImg from '../../assets/images/apps.png'
 function Services() {
   return (
     <section id="services">
-      <div className="container lg:pt-5">
+      <div className="container lg:pt-5 overflow-hidden">
         <div className="text-center">
           <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5 ">
             What do I help
@@ -51,8 +51,8 @@ function Services() {
                     </div>
                   </div>
 
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 
-                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 flex items-center 
+                  <div className="hidden rounded-full bg-primaryColor border-white border-4 w-10 h-10 
+                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 md:flex items-center 
                   justify-center ">
                     <figure>
                         <img src={frontendImg} alt="" />
@@ -90,8 +90,8 @@ function Services() {
                     </div>
                   </div>
 
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 
-                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 flex items-center 
+                  <div className="hidden rounded-full bg-primaryColor border-white border-4 w-10 h-10 
+                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 md:flex items-center 
                   justify-center ">
                     <figure>
                         <img src={backendImg} alt="" />
@@ -129,8 +129,8 @@ function Services() {
                     </div>
                   </div>
 
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 
-                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 flex items-center 
+                  <div className="hidden rounded-full bg-primaryColor border-white border-4 w-10 h-10 
+                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 md:flex items-center 
                   justify-center ">
                     <figure>
                         <img src={appsImg} alt="" />
@@ -168,8 +168,8 @@ function Services() {
                     </div>
                   </div>
 
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 
-                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 flex items-center 
+                  <div className="hidden rounded-full bg-primaryColor border-white border-4 w-10 h-10 
+                  absolute left-1/2 transform -translate-x-1/2 -translate-y-0 sm:translate-y-0 md:flex items-center 
                   justify-center ">
                     <figure>
                         <img src={uiImg} alt="" />

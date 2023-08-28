@@ -75,7 +75,7 @@ function Hero() {
               </span>
               <span>
                 <a
-                  href="https://gihtub.com/yaasiinaxmed"
+                  href="https://twitter.com/yaasiin__ahmed"
                   className="text-smallTextColor text-[18px] font-[600] "
                 >
                   <i class="ri-twitter-line"></i>
@@ -83,7 +83,7 @@ function Hero() {
               </span>
               <span>
                 <a
-                  href="https://gihtub.com/yaasiinaxmed"
+                  href="https://www.linkedin.com/in/yaasiin-ahmed-92126725b/"
                   className="text-smallTextColor text-[18px] font-[600] "
                 >
                   <i class="ri-linkedin-line"></i>
@@ -106,7 +106,7 @@ function Hero() {
           >
             <div className="mb-">
               <h1 className="text-headingColor font-[700] text-[32px] ">
-                <CountUp start={0} end={6} duration={3} suffix="+" />
+                <CountUp start={0} end={1.5} duration={3} suffix="+" />
               </h1>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Years of experience
@@ -122,7 +122,7 @@ function Hero() {
             </div>
             <div className="mb-">
               <h1 className="text-headingColor font-[700] text-[32px] ">
-                <CountUp start={0} end={150} duration={3} suffix="+" />
+                <CountUp start={0} end={117} duration={3} suffix="+" />
               </h1>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Happy clients
@@ -130,7 +130,7 @@ function Hero() {
             </div>
             <div className="mb-">
               <h1 className="text-headingColor font-[700] text-[32px] ">
-                <CountUp start={0} end={249} duration={3} suffix="+" />
+                <CountUp start={0} end={139} duration={3} suffix="+" />
               </h1>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Projects Completed

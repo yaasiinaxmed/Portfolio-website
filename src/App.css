@@ -34,7 +34,7 @@ section {
   left: 0;
   background: #fff;
   box-shadow: 0 0 6px rgba(0,0,0,0.1);
-  z-index: 99;
+  z-index: 18;
   transition: 1s all;
 }
 
