@@ -99,7 +99,7 @@ function Footer() {
             </div>
 
            <div>
-            <p className="text-gray-400 text[14px] ">&copy;  {year} by Yaasiin Ahmed - All right reserved.</p>
+            <p className="text-gray-400 text[14px] ">&copy;  {year} Yaasiin Ahmed - All right reserved.</p>
            </div>
 
           </div>
